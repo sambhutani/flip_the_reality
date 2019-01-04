@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_lightblue"
+    tools:context=".Logo">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
+        android:textSize="32dp"
+        app:srcCompat="@drawable/flip_the_reality"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="512dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="120dp"
+        android:paddingRight="150dp"
+        android:text="WELCOME"
+        android:textSize="32dp"
+        android:textColor="@color/light_lightblue"
+        android:background="@color/light_darkblue"
+        app:layout_anchor="@+id/imageView6"
+        app:layout_anchorGravity="top|center"
+        tools:fontFamily="@font/alfa_slab_one"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_lightblue"
+        android:background="@color/light_darkblue"
+        android:text="Next"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

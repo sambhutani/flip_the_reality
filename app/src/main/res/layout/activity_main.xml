@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_lightblue"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="161dp"
+        android:layout_height="88dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="21dp"
+        android:text="FIT IT"
+        android:textSize="25dp"
+        android:textColor="@color/light_lightblue"
+        android:background="@color/light_darkblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="165dp"
+        android:layout_height="84dp"
+        android:text="FACE IT"
+        android:textSize="25dp"
+        android:textColor="@color/light_lightblue"
+        android:background="@color/light_darkblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@android:style/Widget.Holo.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:background="@android:color/holo_purple"
+        android:backgroundTint="?attr/colorBackgroundFloating"
+        android:tint="?android:attr/colorForeground"
+        app:srcCompat="@android:drawable/ic_menu_help"
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+
+</android.support.constraint.ConstraintLayout>
